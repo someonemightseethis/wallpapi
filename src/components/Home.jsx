@@ -13,7 +13,7 @@ function Home() {
 		const list = [];
 
 		while (uniqueNumbers.size < count) {
-			const number = Math.floor(Math.random() * 252) + 1251;
+			const number = Math.floor(Math.random() * 352) + 1151;
 			if (!uniqueNumbers.has(number)) {
 				uniqueNumbers.add(number);
 				list.push({ number });
